@@ -26,7 +26,7 @@ nombre;destino;precio
 Ejemplo:
 Lago Todos Los Santos;Puerto Varas;15000
 
-### nstrucciones para ejecutar
+### Instrucciones para ejecutar
 
 > Clonar el repositorio desde GitHub:
  >> git clone https://github.com/usuario/llanquihue-tour.git
@@ -34,5 +34,9 @@ Lago Todos Los Santos;Puerto Varas;15000
 > Abrir el proyecto en IntelliJ IDEA o NetBeans.
 > Verificar que la carpeta resources contenga el archivo tours.txt.
 > Ejecutar la clase:
- >> src/ui/Main.java
+ >> src/ui/Main.java <br>
+ <br>
+ <br>
+ <br>
+ <br>
 	
