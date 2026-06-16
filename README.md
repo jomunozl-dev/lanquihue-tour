@@ -18,5 +18,21 @@ src/ <br>
 resources/ <br>
 └── tours.txt<br>
 
+### Archivo de datos
 
+El archivo tours.txt contiene 5 registros con la siguiente estructura:
+nombre;destino;precio
+
+Ejemplo:
+Lago Todos Los Santos;Puerto Varas;15000
+
+### nstrucciones para ejecutar
+
+> Clonar el repositorio desde GitHub:
+ >> git clone https://github.com/usuario/llanquihue-tour.git
+
+> Abrir el proyecto en IntelliJ IDEA o NetBeans.
+> Verificar que la carpeta resources contenga el archivo tours.txt.
+> Ejecutar la clase:
+ >> src/ui/Main.java
 	
