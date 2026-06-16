@@ -13,7 +13,7 @@ src/ <br>
 ├── data/ <br>
 │└── GestorDatos.java <br>
 └── ui/ <br>
-&nbsp;└── Main.java <br>
+&nbsp;&nbsp;└── Main.java <br>
 
 resources/ <br>
 └── tours.txt<br>
