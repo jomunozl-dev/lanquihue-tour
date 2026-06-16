@@ -30,7 +30,7 @@ Lago Todos Los Santos;Puerto Varas;15000
 ### Instrucciones para ejecutar
 
 > Clonar el repositorio desde GitHub:
- >> git clone https://github.com/usuario/llanquihue-tour.git
+ >> git clone https://github.com/usuario/llanquihue-tour.git](https://github.com/jomunozl-dev/lanquihue-tour
 
 > Abrir el proyecto en IntelliJ IDEA o NetBeans.
 > Verificar que la carpeta resources contenga el archivo tours.txt.
