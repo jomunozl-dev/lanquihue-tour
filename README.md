@@ -1,4 +1,4 @@
-# Llanquihue tour
+# Llanquihue tour APP
 ### Nombre del proyecto
 LlanquihueTourApp
 
