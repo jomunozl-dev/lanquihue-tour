@@ -7,22 +7,16 @@ Aplicación desarrollada en Java para representar un sistema simple de gestión 
 
 ### Estructura de carpetas
 
-src/ 
- model/ 
- 
-  -> Tour.java 
-  
- data/ 
- 
-  -> GestorDatos.java 
-  
- ui/ 
- 
-  ->Main.java 
-    
-resources/ 
+src/ <br>
+├── model/ <br>
+│ 	└── Tour.java <br>
+├── data/ <br>
+│ 	└── GestorDatos.java <br>
+└── ui/ <br>
+	└── Main.java <br>
 
- -> tours.txt
+resources/ <br>
+└── tours.txt<br>
 
 
 	
