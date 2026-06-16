@@ -8,15 +8,15 @@ Aplicación desarrollada en Java para representar un sistema simple de gestión 
 ### Estructura de carpetas
 
 src/ 
-├── model/ 
-│   └── Tour.java 
-├── data/ 
-│   └── GestorDatos.java 
-└── ui/ 
-    └── Main.java 
+ model/ 
+  -> Tour.java 
+ data/ 
+  -> GestorDatos.java 
+ ui/ 
+  ->Main.java 
     
 resources/ 
-    └── tours.txt
+ -> tours.txt
 
 
 	
