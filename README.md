@@ -34,7 +34,7 @@ Lago Todos Los Santos;Puerto Varas;15000
 > Abrir el proyecto en IntelliJ IDEA o NetBeans.
 > Verificar que la carpeta resources contenga el archivo tours.txt.
 > Ejecutar la clase:
- >> src/ui/Main.java <br>
+ >> src/main/java/ui/Main.java <br>
  <br>
  <br>
  <br>
