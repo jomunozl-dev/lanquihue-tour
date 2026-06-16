@@ -9,11 +9,11 @@ Aplicación desarrollada en Java para representar un sistema simple de gestión 
 
 src/ <br>
 ├── model/ <br>
-│ 	└── Tour.java <br>
+│└── Tour.java <br>
 ├── data/ <br>
-│ 	└── GestorDatos.java <br>
+│└── GestorDatos.java <br>
 └── ui/ <br>
-	 └── Main.java <br>
+└── Main.java <br>
 
 resources/ <br>
 └── tours.txt<br>
