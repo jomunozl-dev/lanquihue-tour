@@ -7,7 +7,7 @@ Aplicación desarrollada en Java para representar un sistema simple de gestión 
 
 ### Estructura de carpetas
 
-src/main/java/
+src/main/java/ <br>
 ├── model/ <br>
 │└── Tour.java <br>
 ├── data/ <br>
