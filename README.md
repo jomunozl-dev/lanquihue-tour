@@ -8,7 +8,6 @@ Aplicación desarrollada en Java para representar un sistema simple de gestión 
 ### Estructura de carpetas
 
 src/ 
-
  model/ 
  
   -> Tour.java 
