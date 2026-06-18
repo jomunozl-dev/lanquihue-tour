@@ -16,8 +16,8 @@ src/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── GestorDatos.java<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── ui/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Main.java<br>
-&nbsp;&nbsp;&nbsp;&nbsp;└── resources/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── tours.txt
+resources/<br>
+&nbsp;&nbsp;&nbsp;└── tours.txt
 
 ### Archivo de datos
 
