@@ -3,10 +3,9 @@
 LlanquihueTourApp
 
 ### Descripcion
-Aplicación desarrollada en Java para representar un sistema simple de gestión de tours turísticos en la zona de Llanquihue.  El programa permite leer información desde un archivo de texto, crear objetos de tipo Tour, almacenarlos en una colección ArrayList y mostrar los datos filtrados según una condición.
+Aplicación desarrollada en Java para apoyar la gestión administrativa de la agencia Llanquihue Tour, permitiendo cargar información de tours turísticos desde archivos externos, almacenarlos en colecciones dinámicas y ejecutar operaciones automatizadas como recorridos, búsquedas y filtrados. El sistema está organizado de forma modular mediante paquetes funcionales, aplicando principios básicos de Programación Orientada a Objetos como encapsulamiento, reutilización de código y separación de responsabilidades.
 
 ### Estructura de carpetas
-
 src/<br>
 └── main/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── java/<br>
@@ -14,10 +13,12 @@ src/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── Tour.java<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── data/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── GestorDatos.java<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── service/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── TourService.java<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── ui/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Main.java<br>
-resources/<br>
-&nbsp;&nbsp;&nbsp;└── tours.txt
+└── resources/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── tours.txt
 
 ### Archivo de datos
 
