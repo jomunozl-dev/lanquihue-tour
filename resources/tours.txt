@@ -1,5 +1,5 @@
-Lago Todos Los Santos;Puerto Varas;15000
-Saltos del Petrohue;Ensenada;12000
-Volcan Osorno;Puerto Varas;18000
-Isla Tenglo;Puerto Montt;8000
-Frutillar Cultural;Frutillar;10000
+LagoTodosLosSantos;PuertoVaras;Maritimo;15000
+SaltosDelPetrohue;PuertoVaras;Natural;12000
+VolcanOsorno;PuertoVaras;Aventura;18000
+IslaTenglo;PuertoMontt;Cultural;8000
+FrutillarCultural;Frutillar;Gastronomico;10000

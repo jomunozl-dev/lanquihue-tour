@@ -1,42 +1,41 @@
 package ui;
 
 import data.GestorDatos;
-import model.Tour;
+import service.TourService;
 
 /**
- * Clase principal del sistema LlanquihueTourApp.
- * Permite cargar, mostrar y filtrar tours.
- * 
- * @author Jorge Munoz Leon
+ * Clase principal del sistema.
+ *
+ *@author Jorge Munoz Leon
  */
 public class Main {
 
     /**
-     * Método principal de ejecución.
-     * 
-     * @param args argumentos del programa
+     * Método principal.
+     *
+     * @param args argumentos
      */
     public static void main(String[] args) {
 
-        // Crear objeto gestor
+        // Crear gestor
         GestorDatos gestor = new GestorDatos();
 
-        // Cargar datos desde archivo
+        // Cargar archivo
         gestor.cargarDatos();
 
-        // Mostrar todos los tours cargados
+        // Crear servicio
+        TourService servicio = new TourService();
+
+        // Mostrar todos
         System.out.println("LISTA DE TOURS");
-        for (Tour t : gestor.getListaTours()) {
-            System.out.println(t);
-        }
+        servicio.mostrarTours(gestor.getListaTours());
 
-        // Mostrar tours con precio mayor a 10000
-        System.out.println("\nTOURS CON PRECIO MAYOR A 10000");
+        // Buscar por destino
+        System.out.println("\nBUSQUEDA POR DESTINO: PuertoVaras");
+        servicio.buscarPorDestino(gestor.getListaTours(),"PuertoVaras");
 
-        for (Tour t : gestor.getListaTours()) {
-            if (t.getPrecio() > 10000) {
-                System.out.println(t);
-            }
-        }
+        // Filtrar por precio
+        System.out.println("\nTOURS MAYORES A $10000");
+        servicio.filtrarPrecio(gestor.getListaTours());
     }
 }

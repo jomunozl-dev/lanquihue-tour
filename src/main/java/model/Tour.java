@@ -2,33 +2,36 @@ package model;
 
 /**
  * Clase que representa un tour turístico.
- * Contiene nombre, destino y precio del tour.
- * 
+ * Guarda información básica de cada tour.
+ *
  * @author Jorge Munoz Leon
  */
 public class Tour {
 
-    // Atributos de la clase
+    // Atributos privados
     private String nombre;
     private String destino;
+    private String tipo;
     private int precio;
 
     /**
-     * Constructor que inicializa los datos del tour.
-     * 
-     * @param nombre Nombre del tour
-     * @param destino Lugar de destino del tour
-     * @param precio Precio del tour
+     * Constructor de la clase Tour.
+     *
+     * @param nombre nombre del tour
+     * @param destino destino del tour
+     * @param tipo tipo de tour
+     * @param precio precio del tour
      */
-    public Tour(String nombre, String destino, int precio) {
+    public Tour(String nombre, String destino, String tipo, int precio) {
         this.nombre = nombre;
         this.destino = destino;
+        this.tipo = tipo;
         this.precio = precio;
     }
 
     /**
-     * Obtiene el nombre del tour.
-     * 
+     * Obtiene el nombre.
+     *
      * @return nombre del tour
      */
     public String getNombre() {
@@ -36,8 +39,8 @@ public class Tour {
     }
 
     /**
-     * Obtiene el destino del tour.
-     * 
+     * Obtiene el destino.
+     *
      * @return destino del tour
      */
     public String getDestino() {
@@ -45,8 +48,17 @@ public class Tour {
     }
 
     /**
-     * Obtiene el precio del tour.
-     * 
+     * Obtiene el tipo.
+     *
+     * @return tipo del tour
+     */
+    public String getTipo() {
+        return tipo;
+    }
+
+    /**
+     * Obtiene el precio.
+     *
      * @return precio del tour
      */
     public int getPrecio() {
@@ -54,8 +66,8 @@ public class Tour {
     }
 
     /**
-     * Modifica el nombre del tour.
-     * 
+     * Modifica el nombre.
+     *
      * @param nombre nuevo nombre
      */
     public void setNombre(String nombre) {
@@ -63,8 +75,8 @@ public class Tour {
     }
 
     /**
-     * Modifica el destino del tour.
-     * 
+     * Modifica el destino.
+     *
      * @param destino nuevo destino
      */
     public void setDestino(String destino) {
@@ -72,8 +84,17 @@ public class Tour {
     }
 
     /**
-     * Modifica el precio del tour.
-     * 
+     * Modifica el tipo.
+     *
+     * @param tipo nuevo tipo
+     */
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    /**
+     * Modifica el precio.
+     *
      * @param precio nuevo precio
      */
     public void setPrecio(int precio) {
@@ -81,14 +102,15 @@ public class Tour {
     }
 
     /**
-     * Devuelve la información completa del tour.
-     * 
-     * @return información del tour en texto
+     * Muestra información completa del tour.
+     *
+     * @return información del tour
      */
     @Override
     public String toString() {
-        return "Tour: " + nombre +
+        return "Nombre: " + nombre +
                 " | Destino: " + destino +
+                " | Tipo: " + tipo +
                 " | Precio: $" + precio;
     }
 }
