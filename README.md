@@ -1,4 +1,4 @@
-# &#9786 Llanquihue tour APP
+# ☺ Llanquihue tour APP
 ### ★Nombre del proyecto
 LlanquihueTourApp
 
