@@ -8,17 +8,17 @@ El sistema permite modelar de forma jerárquica diferentes tipos de servicios tu
 
 La aplicación está organizada de manera modular mediante paquetes funcionales, aplicando principios fundamentales de Programación Orientada a Objetos (POO), como: <br>
 <br>
-•Encapsulamiento<br>
-•Herencia<br>
-•Sobrescritura de métodos<br>
-•Reutilización de código<br>
-•Separación de responsabilidades<br>
+•<br>Encapsulamiento<br>
+•<br>Herencia<br>
+•<br>Sobrescritura de métodos<br>
+•<br>Reutilización de código<br>
+•<br>Separación de responsabilidades<br>
 <br>
 En esta versión del proyecto, se implementa una jerarquía de clases para representar:<br>
 <br>
-•Rutas gastronómicas<br>
-•Paseos lacustres<br>
-•Excursiones culturales<br>
+•<br>Rutas gastronómicas<br>
+•<br>Paseos lacustres<br>
+•<br>Excursiones culturales<br>
 
 ### ★Estructura de carpetas
 src/<br>
