@@ -42,14 +42,14 @@ ServicioTuristico(Superclase)<br> ├── RutaGastronomica(Subclase)<br> ├�
 Clonar el repositorio desde GitHub:<br>
 &nbsp;&nbsp;git clone https://github.com/jomunozl-dev/lanquihue-tour<br>
 Abrir el proyecto en IntelliJ IDEA o NetBeans.<br>
-&nbsp;&nbsp;Verificar que la estructura del proyecto contenga los paquetes:<br>
+Verificar que la estructura del proyecto contenga los paquetes:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;•model<br>
 &nbsp;&nbsp;&nbsp;&nbsp;•data<br>
 &nbsp;&nbsp;&nbsp;&nbsp;•ui<br>
 Ejecutar la clase principal:<br>
 &nbsp;&nbsp;src/main/java/ui/Main.java<br>
 <br>
-&nbsp;&nbsp;La clase Main instancia la clase GestorServicios y ejecuta el método mostrarServicios(), encargado de crear los servicios turísticos de prueba y mostrar su información en consola.
+La clase Main instancia la clase GestorServicios y ejecuta el método mostrarServicios(), encargado de crear los servicios turísticos de prueba y mostrar su información en consola.
  <br>
  <br>
  <br>
