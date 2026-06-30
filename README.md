@@ -6,19 +6,19 @@ LlanquihueTourApp
 Aplicación desarrollada en Java para representar y gestionar los distintos servicios turísticos ofrecidos por la agencia Llanquihue Tour.
 El sistema permite modelar de forma jerárquica diferentes tipos de servicios turísticos mediante herencia simple, reutilizando atributos comunes y especializando características propias de cada categoría.
 
-La aplicación está organizada de manera modular mediante paquetes funcionales, aplicando principios fundamentales de Programación Orientada a Objetos (POO), como:
+La aplicación está organizada de manera modular mediante paquetes funcionales, aplicando principios fundamentales de Programación Orientada a Objetos (POO), como: <br>
+<br>
+Encapsulamiento<br>
+Herencia<br>
+Sobrescritura de métodos<br>
+Reutilización de código<br>
+Separación de responsabilidades<br>
+<br>
+En esta versión del proyecto, se implementa una jerarquía de clases para representar:<br>
 
-Encapsulamiento
-Herencia
-Sobrescritura de métodos
-Reutilización de código
-Separación de responsabilidades
-
-En esta versión del proyecto, se implementa una jerarquía de clases para representar:
-
-Rutas gastronómicas
-Paseos lacustres
-Excursiones culturales
+Rutas gastronómicas<br>
+Paseos lacustres<br>
+Excursiones culturales<br>
 
 # >>>> VER Video demostrativo <<<<
 [![Ver video](https://drive.google.com/file/d/1Ko1Ce7SkPMOj2b5sassEA_aIhh8jDwFL/view?usp=sharing)](https://drive.google.com/file/d/1d2iCKEdkbSs2UAc3GL9fUJ0lHI5iwMtw/view?usp=sharing)
