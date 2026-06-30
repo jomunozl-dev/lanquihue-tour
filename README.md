@@ -41,11 +41,13 @@ ServicioTuristico(Superclase)<br> ├── RutaGastronomica(Subclase)<br> ├�
 
 Clonar el repositorio desde GitHub:<br>
 &nbsp;&nbsp;git clone https://github.com/jomunozl-dev/lanquihue-tour<br>
+<br>
 Abrir el proyecto en IntelliJ IDEA o NetBeans.<br>
 Verificar que la estructura del proyecto contenga los paquetes:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;•model<br>
 &nbsp;&nbsp;&nbsp;&nbsp;•data<br>
 &nbsp;&nbsp;&nbsp;&nbsp;•ui<br>
+<br>
 Ejecutar la clase principal:<br>
 &nbsp;&nbsp;src/main/java/ui/Main.java<br>
 <br>
