@@ -15,6 +15,7 @@ La aplicación está organizada de manera modular mediante paquetes funcionales,
 •Separación de responsabilidades<br>
 <br>
 En esta versión del proyecto, se implementa una jerarquía de clases para representar:<br>
+<br>
 •Rutas gastronómicas<br>
 •Paseos lacustres<br>
 •Excursiones culturales<br>
