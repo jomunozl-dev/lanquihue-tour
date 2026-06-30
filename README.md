@@ -1,8 +1,8 @@
 # Llanquihue tour APP
-### Nombre del proyecto
+### ★Nombre del proyecto
 LlanquihueTourApp
 
-### Descripcion
+### ★Descripcion
 Aplicación desarrollada en Java para representar y gestionar los distintos servicios turísticos ofrecidos por la agencia Llanquihue Tour.
 El sistema permite modelar de forma jerárquica diferentes tipos de servicios turísticos mediante herencia simple, reutilizando atributos comunes y especializando características propias de cada categoría.
 
@@ -20,7 +20,7 @@ En esta versión del proyecto, se implementa una jerarquía de clases para repre
 •Paseos lacustres<br>
 •Excursiones culturales<br>
 
-### Estructura de carpetas
+### ★Estructura de carpetas
 src/<br>
 └── main/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;└── java/<br>
@@ -34,10 +34,10 @@ src/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ui/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Main.java<br>
 
-### Jerarquia de clases
+### ★Jerarquia de clases
 ServicioTuristico(Superclase)<br> ├── RutaGastronomica(Subclase)<br> ├── PaseoLacustre(Subclase)<br> └── ExcursionCultural(Subclase)<br>
 
-### Instrucciones para ejecutar
+### ★Instrucciones para ejecutar
 
 ➢Clonar el repositorio desde GitHub:<br>
 &nbsp;&nbsp;git clone https://github.com/jomunozl-dev/lanquihue-tour<br>
