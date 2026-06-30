@@ -49,7 +49,7 @@ ServicioTuristico(Superclase)<br> ├── RutaGastronomica(Subclase)<br> ├�
 &nbsp;&nbsp;&nbsp;&nbsp;•ui<br>
 <br>
 ➢Ejecutar la clase principal:<br>
-&nbsp;&nbsp;•src/main/java/ui/Main.java<br>
+&nbsp;&nbsp;&nbsp;&nbsp;•src/main/java/ui/Main.java<br>
 <br>
 ➢La clase Main instancia la clase GestorServicios y ejecuta el método mostrarServicios(), encargado de crear los servicios turísticos de prueba y mostrar su información en consola.
  <br>
