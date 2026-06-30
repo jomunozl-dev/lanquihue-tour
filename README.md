@@ -35,7 +35,7 @@ src/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Main.java<br>
 
 ### Jerarquia de clases
-ServicioTuristico<br> ├── RutaGastronomica<br> ├── PaseoLacustre<br> └── ExcursionCultural<br>
+ServicioTuristico(Superclase)<br> ├── RutaGastronomica(Subclase)<br> ├── PaseoLacustre(Subclase)<br> └── ExcursionCultural(Subclase)<br>
 
 ### Instrucciones para ejecutar
 
