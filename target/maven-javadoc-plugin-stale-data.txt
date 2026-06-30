@@ -1,0 +1,45 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+--release
+25
+-sourcepath
+'/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'LlanquihueTourApp 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'LlanquihueTourApp 1.0-SNAPSHOT API'
+data
+ui
+model
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java = 1782782873418
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/help-doc.html = 1782788122317
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/search.html = 1782788122303
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/module-search-index.js = 1782788122246
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/overview-summary.html = 1782788122306
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/index.html = 1782788122203
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/index-all.html = 1782788122292
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/member-search-index.js = 1782788122249
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/tag-search-index.js = 1782788122249
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/element-list = 1782788122067
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/type-search-index.js = 1782788122247
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/overview-tree.html = 1782788122194
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/allpackages-index.html = 1782788122244
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/package-search-index.js = 1782788122247
+/home/user/NetBeansProjects/LlanquihueTourApp/target/reports/apidocs/allclasses-index.html = 1782788122239

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"model","l":"ExcursionCultural"},{"p":"data","l":"GestorServicios"},{"p":"ui","l":"Main"},{"p":"model","l":"PaseoLacustre"},{"p":"model","l":"RutaGastronomica"},{"p":"model","l":"ServicioTuristico"}];updateSearchResults();

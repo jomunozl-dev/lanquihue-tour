@@ -1,4 +1,6 @@
-/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/data/GestorDatos.java
-/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/Tour.java
-/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/service/TourService.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/data/GestorServicios.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/ExcursionCultural.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/PaseoLacustre.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/RutaGastronomica.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/ServicioTuristico.java
 /home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/ui/Main.java

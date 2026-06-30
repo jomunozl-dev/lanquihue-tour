@@ -1,4 +1,6 @@
 ui/Main.class
-data/GestorDatos.class
-model/Tour.class
-service/TourService.class
+model/RutaGastronomica.class
+model/ExcursionCultural.class
+model/ServicioTuristico.class
+model/PaseoLacustre.class
+data/GestorServicios.class
