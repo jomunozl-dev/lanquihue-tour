@@ -34,18 +34,9 @@ src/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── GestorServicios.java<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── ui/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Main.java<br>
-```
 
-
-### Archivo de datos
-
-El archivo tours.txt contiene 5 registros con información de tours turísticos. Cada línea está estructurada con los siguientes campos separados por punto y coma (;):
-
-nombre;destino;tipo;precio
-
-Ejemplo:
-
-LagoTodosLosSantos;PuertoVaras;Maritimo;15000
+### Jerarquia de clases
+ServicioTuristico<br> ├── RutaGastronomica<br> ├── PaseoLacustre<br> └── ExcursionCultural<br>
 
 ### Instrucciones para ejecutar
 
