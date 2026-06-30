@@ -44,12 +44,12 @@ ServicioTuristico(Superclase)<br> ├── RutaGastronomica(Subclase)<br> ├�
 <br>
 ➢Abrir el proyecto en IntelliJ IDEA o NetBeans.<br>
 ➢Verificar que la estructura del proyecto contenga los paquetes:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;•model<br>
-&nbsp;&nbsp;&nbsp;&nbsp;•data<br>
-&nbsp;&nbsp;&nbsp;&nbsp;•ui<br>
+&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;model<br>
+&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;data<br>
+&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;ui<br>
 <br>
 ➢Ejecutar la clase principal:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;•src/main/java/ui/Main.java<br>
+&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;src/main/java/ui/Main.java<br>
 <br>
 ➢La clase Main instancia la clase GestorServicios y ejecuta el método mostrarServicios(), encargado de crear los servicios turísticos de prueba y mostrar su información en consola.
  <br>
