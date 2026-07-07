@@ -52,7 +52,7 @@ Respecto a la versión anterior del proyecto, se realizaron las siguientes mejor
 •Se implementó una colección polimórfica que almacena objetos de distintas subclases.<br>
 •Se recorren los servicios mediante un ciclo for-each, aplicando polimorfismo sin utilizar instanceof.<br>
 •Se reorganizó la clase GestorServicios para centralizar la carga y visualización de los servicios turísticos.<br>
-<br>
+
 ### ★Instrucciones para ejecutar
 
 ➢Clonar el repositorio desde GitHub:<br>
