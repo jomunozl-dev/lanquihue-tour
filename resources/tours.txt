@@ -1,5 +1,0 @@
-LagoTodosLosSantos;PuertoVaras;Maritimo;15000
-SaltosDelPetrohue;PuertoVaras;Natural;12000
-VolcanOsorno;PuertoVaras;Aventura;18000
-IslaTenglo;PuertoMontt;Cultural;8000
-FrutillarCultural;Frutillar;Gastronomico;10000
