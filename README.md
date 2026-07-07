@@ -4,21 +4,25 @@ LlanquihueTourApp
 
 ### ★Descripcion
 Aplicación desarrollada en Java para representar y gestionar los distintos servicios turísticos ofrecidos por la agencia Llanquihue Tour.
-El sistema permite modelar de forma jerárquica diferentes tipos de servicios turísticos mediante herencia simple, reutilizando atributos comunes y especializando características propias de cada categoría.
 
-La aplicación está organizada de manera modular mediante paquetes funcionales, aplicando principios fundamentales de Programación Orientada a Objetos (POO), como: <br>
-<br>
-•&nbsp;&nbsp;Encapsulamiento<br>
-•&nbsp;&nbsp;Herencia<br>
-•&nbsp;&nbsp;Sobrescritura de métodos<br>
-•&nbsp;&nbsp;Reutilización de código<br>
-•&nbsp;&nbsp;Separación de responsabilidades<br>
-<br>
-En esta versión del proyecto, se implementa una jerarquía de clases para representar:<br>
-<br>
-•&nbsp;&nbsp;Rutas gastronómicas<br>
-•&nbsp;&nbsp;Paseos lacustres<br>
-•&nbsp;&nbsp;Excursiones culturales<br>
+El sistema permite modelar diferentes tipos de servicios turísticos mediante una jerarquía de clases, incorporando herencia simple, polimorfismo y colecciones genéricas para gestionar dinámicamente los servicios desde una única colección.
+
+La aplicación está organizada de forma modular mediante paquetes funcionales, aplicando principios fundamentales de Programación Orientada a Objetos (POO), tales como: /<br>
+/<br>
+•Encapsulamiento./<br>
+•Herencia./<br>
+•Polimorfismo./<br>
+•Sobrescritura de métodos./<br>
+•Reutilización de código./<br>
+•Separación de responsabilidades./<br>
+/<br>
+En esta versión del proyecto, los servicios turísticos se almacenan en una colección de tipo List<ServicioTuristico>, permitiendo recorrerlos de forma polimórfica mediante referencias a la superclase e invocar el método mostrarInformacion() sobrescrito por cada subclase.
+
+La jerarquía implementada representa los siguientes servicios turísticos:
+
+Rutas gastronómicas.
+Paseos lacustres.
+Excursiones culturales.
 
 ### ★Estructura de carpetas
 src/<br>
