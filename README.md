@@ -18,11 +18,11 @@ La aplicación está organizada de forma modular mediante paquetes funcionales, 
 <br>
 En esta versión del proyecto, los servicios turísticos se almacenan en una colección de tipo List<ServicioTuristico>, permitiendo recorrerlos de forma polimórfica mediante referencias a la superclase e invocar el método mostrarInformacion() sobrescrito por cada subclase.
 
-La jerarquía implementada representa los siguientes servicios turísticos:
+La jerarquía implementada representa los siguientes servicios turísticos:<br>
 
-Rutas gastronómicas.
-Paseos lacustres.
-Excursiones culturales.
+✦Rutas gastronómicas.<br>
+✦Paseos lacustres.<br>
+✦Excursiones culturales.<br>
 
 ### ★Estructura de carpetas
 src/<br>
