@@ -44,7 +44,6 @@ ServicioTuristico(Superclase)<br> ├── RutaGastronomica(Subclase)<br> ├�
 Todas las subclases heredan los atributos y comportamientos comunes definidos en ServicioTuristico y sobrescriben el método mostrarInformacion() para mostrar información específica de cada tipo de servicio.
 
 ### ★Cambios incorporados<br>
-<br>
 Respecto a la versión anterior del proyecto, se realizaron las siguientes mejoras:<br>
 <br>
 •Se incorporó el método mostrarInformacion() en la superclase ServicioTuristico.<br>
@@ -54,7 +53,6 @@ Respecto a la versión anterior del proyecto, se realizaron las siguientes mejor
 •Se recorren los servicios mediante un ciclo for-each, aplicando polimorfismo sin utilizar instanceof.<br>
 •Se reorganizó la clase GestorServicios para centralizar la carga y visualización de los servicios turísticos.<br>
 <br>
-	
 ### ★Instrucciones para ejecutar
 
 ➢Clonar el repositorio desde GitHub:<br>
