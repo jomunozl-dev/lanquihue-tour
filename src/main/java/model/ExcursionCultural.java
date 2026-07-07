@@ -13,7 +13,15 @@ public class ExcursionCultural extends ServicioTuristico {
         super(nombre, duracionHoras);
         this.lugarHistorico = lugarHistorico;
     }
-
+    
+     /**
+     * Muestra la información de la excursión cultural.
+     */
+    @Override
+    public void mostrarInformacion() {
+        System.out.println(toString());
+    }
+    
     @Override
     public String toString() {
         return "Excursión Cultural: " + nombre +

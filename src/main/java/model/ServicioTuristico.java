@@ -19,7 +19,14 @@ public class ServicioTuristico {
         this.nombre = nombre;
         this.duracionHoras = duracionHoras;
     }
-
+    
+    /**
+     * Muestra la información del servicio turístico.
+     */
+    public void mostrarInformacion() {
+        System.out.println(toString());
+    }
+    
     @Override
     public String toString() {
         return "Servicio: " + nombre +
