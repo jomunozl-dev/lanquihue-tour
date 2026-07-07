@@ -7,15 +7,15 @@ Aplicación desarrollada en Java para representar y gestionar los distintos serv
 
 El sistema permite modelar diferentes tipos de servicios turísticos mediante una jerarquía de clases, incorporando herencia simple, polimorfismo y colecciones genéricas para gestionar dinámicamente los servicios desde una única colección.
 
-La aplicación está organizada de forma modular mediante paquetes funcionales, aplicando principios fundamentales de Programación Orientada a Objetos (POO), tales como: /<br>
-/<br>
-•Encapsulamiento./<br>
-•Herencia./<br>
-•Polimorfismo./<br>
-•Sobrescritura de métodos./<br>
-•Reutilización de código./<br>
-•Separación de responsabilidades./<br>
-/<br>
+La aplicación está organizada de forma modular mediante paquetes funcionales, aplicando principios fundamentales de Programación Orientada a Objetos (POO), tales como: <br>
+<br>
+•Encapsulamiento.<br>
+•Herencia.<br>
+•Polimorfismo.<br>
+•Sobrescritura de métodos.<br>
+•Reutilización de código.<br>
+•Separación de responsabilidades.<br>
+<br>
 En esta versión del proyecto, los servicios turísticos se almacenan en una colección de tipo List<ServicioTuristico>, permitiendo recorrerlos de forma polimórfica mediante referencias a la superclase e invocar el método mostrarInformacion() sobrescrito por cada subclase.
 
 La jerarquía implementada representa los siguientes servicios turísticos:
