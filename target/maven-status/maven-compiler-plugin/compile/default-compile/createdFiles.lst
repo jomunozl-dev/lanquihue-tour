@@ -1,6 +1,8 @@
 ui/Main.class
-model/RutaGastronomica.class
-model/ExcursionCultural.class
-model/ServicioTuristico.class
-model/PaseoLacustre.class
-data/GestorServicios.class
+model/ColaboradorExterno.class
+data/GestorEntidades.class
+model/Vehiculo.class
+model/GuiaTuristico.class
+ui/VentanaPrincipal.class
+model/RecursoAgencia.class
+model/Registrable.class

@@ -1,6 +1,8 @@
-/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/data/GestorServicios.java
-/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/ExcursionCultural.java
-/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/PaseoLacustre.java
-/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/RutaGastronomica.java
-/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/ServicioTuristico.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/data/GestorEntidades.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/ColaboradorExterno.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/GuiaTuristico.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/RecursoAgencia.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/Registrable.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/model/Vehiculo.java
 /home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/ui/Main.java
+/home/user/NetBeansProjects/LlanquihueTourApp/src/main/java/ui/VentanaPrincipal.java
