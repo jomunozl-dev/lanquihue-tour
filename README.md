@@ -42,9 +42,13 @@ src/<br>
 
 
 ### ★Jerarquia de clases
-Registrable(Interface)<br>ServicioTuristico(Superclase)<br> ├── RutaGastronomica(Subclase)<br> ├── PaseoLacustre(Subclase)<br> └── ExcursionCultural(Subclase)<br>
+Registrable(Interface)<br>RecursoAgencia(Superclase)<br> ├── Vehiculo(Subclase)<br> ├── Guia Turistico(Subclase)<br> └── Colaborador Externo(Subclase)<br>
 <br>
-Todas las subclases heredan los atributos y comportamientos comunes definidos en ServicioTuristico y sobrescriben el método mostrarInformacion() para mostrar información específica de cada tipo de servicio.
+
+- La interfaz `Registrable` define el comportamiento común mediante el método `mostrarResumen()`.
+- La clase `RecursoAgencia` contiene atributos compartidos por las entidades del sistema y permite reutilizar código mediante herencia.
+- Las clases `GuiaTuristico`, `Vehiculo` y `ColaboradorExterno` heredan de `RecursoAgencia` e implementan la interfaz `Registrable`, sobrescribiendo el método `mostrarResumen()` para entregar información 
+específica según el tipo de entidad.
 
 ### ★Cambios incorporados<br>
 Respecto a la versión anterior del proyecto, se realizaron las siguientes mejoras:<br>
