@@ -75,7 +75,6 @@ El sistema utiliza el operador `instanceof` para identificar el tipo específico
 Como la lista utiliza referencias del tipo común `Registrable`, todos los objetos pueden ser recorridos de manera uniforme. Sin embargo, mediante `instanceof` es posible determinar durante la ejecución si el objeto corresponde a una clase específica, como `GuiaTuristico`, `Vehiculo` o `ColaboradorExterno`.
 
 Ejemplo:
-```java
 if(entidad instanceof GuiaTuristico){
     // Lógica para guías turísticos
 }
