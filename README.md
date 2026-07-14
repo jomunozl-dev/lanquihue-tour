@@ -48,15 +48,26 @@ Registrable(Interface)<br>RecursoAgencia(Superclase)<br> ├── Vehiculo(Subc
 - Las clases `GuiaTuristico`, `Vehiculo` y `ColaboradorExterno` heredan de `RecursoAgencia` e implementan la interfaz `Registrable`, sobrescribiendo el método `mostrarResumen()` para entregar información 
 específica según el tipo de entidad.
 
-### ★Cambios incorporados<br>
-Respecto a la versión anterior del proyecto, se realizaron las siguientes mejoras:<br>
-<br>
-•Se incorporó el método mostrarInformacion() en la superclase ServicioTuristico.<br>
-•Las subclases RutaGastronomica, PaseoLacustre y ExcursionCultural sobrescriben el método mostrarInformacion() mediante la anotación @Override.<br>
-•Se reemplazó la creación de objetos individuales por una colección genérica List<ServicioTuristico>.<br>
-•Se implementó una colección polimórfica que almacena objetos de distintas subclases.<br>
-•Se recorren los servicios mediante un ciclo for-each, aplicando polimorfismo sin utilizar instanceof.<br>
-•Se reorganizó la clase GestorServicios para centralizar la carga y visualización de los servicios turísticos.<br>
+## Paquete UI
+El paquete `ui` contiene las clases encargadas de la interacción con el usuario mediante una interfaz gráfica básica desarrollada con `JOptionPane`.
+Dentro de este paquete se encuentran:
+
+#### - Main.java
+Clase principal del sistema encargada de iniciar la ejecución de la aplicación.
+Su responsabilidad es crear una instancia de `VentanaPrincipal` e iniciar la interfaz gráfica.
+
+#### - VentanaPrincipal.java
+
+Clase encargada de gestionar la interacción con el usuario.
+Permite:
+- Registrar nuevas entidades del sistema.
+- Solicitar datos mediante cuadros de diálogo.
+- Crear objetos de tipo `GuiaTuristico`, `Vehiculo` y `ColaboradorExterno`.
+- Enviar los objetos creados al `GestorEntidades`.
+- Mostrar la información almacenada mediante el método `mostrarResumen()`.
+
+La clase utiliza la colección administrada por `GestorEntidades` y aplica polimorfismo al recorrer objetos mediante referencias de tipo `Registrable`.
+Además, utiliza el operador `instanceof` para identificar el tipo concreto de cada objeto durante la ejecución y aplicar una lógica diferenciada según la entidad registrada.
 
 ### ★Instrucciones para ejecutar
 
