@@ -74,16 +74,16 @@ Además, utiliza el operador `instanceof` para identificar el tipo concreto de c
 El sistema utiliza el operador `instanceof` para identificar el tipo específico de cada objeto almacenado dentro de la colección.
 Como la lista utiliza referencias del tipo común `Registrable`, todos los objetos pueden ser recorridos de manera uniforme. Sin embargo, mediante `instanceof` es posible determinar durante la ejecución si el objeto corresponde a una clase específica, como `GuiaTuristico`, `Vehiculo` o `ColaboradorExterno`.
 
-Ejemplo:
-if(entidad instanceof GuiaTuristico){
-    // Lógica para guías turísticos
-}
-else if(entidad instanceof Vehiculo){
-    // Lógica para vehículos
-}
-else if(entidad instanceof ColaboradorExterno){
-    // Lógica para colaboradores externos
-}
+Ejemplo:<br>
+if(entidad instanceof GuiaTuristico){<br>
+    // Lógica para guías turísticos<br>
+}<br>
+else if(entidad instanceof Vehiculo){<br>
+    // Lógica para vehículos<br>
+}<br>
+else if(entidad instanceof ColaboradorExterno){<br>
+    // Lógica para colaboradores externos<br>
+}<br>
 
 ### ★Instrucciones para ejecutar
 
