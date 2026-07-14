@@ -72,9 +72,8 @@ Respecto a la versión anterior del proyecto, se realizaron las siguientes mejor
 ➢Ejecutar la clase principal:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;src/main/java/ui/Main.java<br>
 <br>
-➢La clase Main crea una instancia de GestorServicios, carga los servicios turísticos de prueba en una colección List<ServicioTuristico> mediante el método cargarServicios() y posteriormente ejecuta mostrarServicios(), que recorre la colección aplicando polimorfismo para mostrar la información específica de cada servicio.
+➢La clase `Main` inicializa el sistema mediante `GestorServicios`, carga los servicios turísticos y muestra la información utilizando el método sobrescrito `mostrarInformacion()`.
  <br>
  <br>
  <br>
  <br>
-	
