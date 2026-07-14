@@ -99,7 +99,9 @@ else if(entidad instanceof ColaboradorExterno){<br>
 ➢Ejecutar la clase principal:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;src/main/java/ui/Main.java<br>
 <br>
-➢La clase `Main` inicializa el sistema mediante `GestorServicios`, carga los servicios turísticos y muestra la información utilizando el método sobrescrito `mostrarInformacion()`.
+➢La clase `Main` corresponde al punto de entrada principal de la aplicación.
+Su responsabilidad es iniciar la ejecución del sistema creando una instancia de la clase `VentanaPrincipal` y llamando al método encargado de iniciar la interfaz gráfica.
+Esta clase no contiene lógica de negocio ni manejo de datos, ya que esas responsabilidades se encuentran separadas en los paquetes `model` y `data`.
  <br>
  <br>
  <br>
