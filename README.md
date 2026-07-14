@@ -23,7 +23,7 @@ La jerarquía implementada representa los siguientes servicios turísticos:
 - Rutas gastronómicas.<br>
 - Paseos lacustres.<br>
 - Excursiones culturales.<br>
-- 
+
 ### ★Estructura de carpetas
 src/<br>
 └── main/<br>
