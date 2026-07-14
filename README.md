@@ -69,6 +69,23 @@ Permite:
 La clase utiliza la colección administrada por `GestorEntidades` y aplica polimorfismo al recorrer objetos mediante referencias de tipo `Registrable`.
 Además, utiliza el operador `instanceof` para identificar el tipo concreto de cada objeto durante la ejecución y aplicar una lógica diferenciada según la entidad registrada.
 
+##### Uso del operador instanceof
+
+El sistema utiliza el operador `instanceof` para identificar el tipo específico de cada objeto almacenado dentro de la colección.
+Como la lista utiliza referencias del tipo común `Registrable`, todos los objetos pueden ser recorridos de manera uniforme. Sin embargo, mediante `instanceof` es posible determinar durante la ejecución si el objeto corresponde a una clase específica, como `GuiaTuristico`, `Vehiculo` o `ColaboradorExterno`.
+
+Ejemplo:
+```java
+if(entidad instanceof GuiaTuristico){
+    // Lógica para guías turísticos
+}
+else if(entidad instanceof Vehiculo){
+    // Lógica para vehículos
+}
+else if(entidad instanceof ColaboradorExterno){
+    // Lógica para colaboradores externos
+}
+
 ### ★Instrucciones para ejecutar
 
 ➢Clonar el repositorio desde GitHub:<br>
