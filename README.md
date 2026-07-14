@@ -42,7 +42,7 @@ src/<br>
 
 
 ### ★Jerarquia de clases
-ServicioTuristico(Superclase)<br> ├── RutaGastronomica(Subclase)<br> ├── PaseoLacustre(Subclase)<br> └── ExcursionCultural(Subclase)<br>
+Registrable(Interface)<br>ServicioTuristico(Superclase)<br> ├── RutaGastronomica(Subclase)<br> ├── PaseoLacustre(Subclase)<br> └── ExcursionCultural(Subclase)<br>
 <br>
 Todas las subclases heredan los atributos y comportamientos comunes definidos en ServicioTuristico y sobrescriben el método mostrarInformacion() para mostrar información específica de cada tipo de servicio.
 
