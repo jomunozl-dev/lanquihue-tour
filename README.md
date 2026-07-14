@@ -3,27 +3,27 @@
 LlanquihueTourApp
 
 ### ★Descripcion
-Aplicación desarrollada en Java para representar y gestionar los distintos servicios turísticos ofrecidos por la agencia Llanquihue Tour.
+Aplicación desarrollada en Java para representar y gestionar los distintos servicios turísticos ofrecidos por la agencia **Llanquihue Tour**.
 
-El sistema permite modelar diferentes tipos de servicios turísticos mediante una jerarquía de clases, incorporando herencia simple, polimorfismo y colecciones genéricas para gestionar dinámicamente los servicios desde una única colección.
+El sistema permite modelar diferentes tipos de servicios turísticos mediante una jerarquía de clases orientada a objetos, incorporando conceptos fundamentales de Programación Orientada a Objetos (POO), como herencia simple, polimorfismo, sobrescritura de métodos y colecciones genéricas.
 
-La aplicación está organizada de forma modular mediante paquetes funcionales, aplicando principios fundamentales de Programación Orientada a Objetos (POO), tales como: <br>
-<br>
-•Encapsulamiento.<br>
-•Herencia.<br>
-•Polimorfismo.<br>
-•Sobrescritura de métodos.<br>
-•Reutilización de código.<br>
-•Separación de responsabilidades.<br>
-<br>
-En esta versión del proyecto, los servicios turísticos se almacenan en una colección de tipo List<ServicioTuristico>, permitiendo recorrerlos de forma polimórfica mediante referencias a la superclase e invocar el método mostrarInformacion() sobrescrito por cada subclase.
+La aplicación está organizada de forma modular mediante paquetes funcionales, aplicando principios de diseño como:<br>
 
-La jerarquía implementada representa los siguientes servicios turísticos:<br>
+- Encapsulamiento.<br>
+- Herencia.<br>
+- Polimorfismo.<br>
+- Sobrescritura de métodos.<br>
+- Reutilización de código.<br>
+- Separación de responsabilidades.<br>
 
-✦Rutas gastronómicas.<br>
-✦Paseos lacustres.<br>
-✦Excursiones culturales.<br>
+En esta versión del proyecto, los servicios turísticos son almacenados en una colección genérica de tipo `List<ServicioTuristico>`, permitiendo gestionar diferentes tipos de servicios mediante referencias a la superclase y ejecutar comportamientos específicos mediante métodos sobrescritos.<br>
 
+La jerarquía implementada representa los siguientes servicios turísticos:
+
+- Rutas gastronómicas.<br>
+- Paseos lacustres.<br>
+- Excursiones culturales.<br>
+- 
 ### ★Estructura de carpetas
 src/<br>
 └── main/<br>
